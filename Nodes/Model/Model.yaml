@@ -1,0 +1,79 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- Name: Variable1
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: -45
+- Name: Variable2
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/DINT_1"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: Variable3
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../CommDrivers/RAEtherNet_IPDriver1/RAEtherNet_IPStation1/Tags/Controller Tags/INT_3"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: RefreshTime
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 2000
+- Name: X_Interactive
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: Y_Interactive
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: X_DateTime
+  Type: BaseDataVariableType
+  DataType: DateTime
+  Value: "2023-11-17T04:56:00.0000000"
+- Name: X_Follow
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: X_TimeWindow
+  Type: BaseDataVariableType
+  DataType: Duration
+  Value: "0:00:00:10.0000000"
+- Name: Y_AutoScale
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: Y_Max
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 100
+- Name: Y_Min
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: -100
+- Name: Pen1Thickness
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 1
+- Name: Pen1Enable
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
